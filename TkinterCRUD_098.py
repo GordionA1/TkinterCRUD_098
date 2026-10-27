@@ -31,3 +31,12 @@ def prediksi_fakultas(biologi, fisika, inggris):
         return "Tidak dapat ditentukan"
     
 def submit_nilai():
+    nama = entry_nama.get().strip()
+    try:
+        bio = int(entry_bio.get())
+        fis = ing(entry_ing.get())
+    except ValueError:
+        messagebox.showerror("Eror", "Nilai harus berupa angka!")
+        return
+    
+    
