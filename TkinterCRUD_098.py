@@ -29,3 +29,5 @@ def prediksi_fakultas(biologi, fisika, inggris):
         return "Bahasa"
     else:
         return "Tidak dapat ditentukan"
+    
+def submit_nilai():
