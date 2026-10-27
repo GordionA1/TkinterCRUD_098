@@ -18,4 +18,6 @@ def create_db():
     conn.commit()
     conn.close()
     
-    
+create_db
+
+def prediksi_fakultas(biologi, fisika, inggris):
